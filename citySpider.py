@@ -6,7 +6,7 @@ import xlwt
 def cityRun():
 	print '58同城 start...'
 	wb = xlwt.Workbook()
-	sheet = wb.add_sheet('58')
+	sheet = wb.add_sheet('58city')
 	sheet.write(0,0,'链接')
 	sheet.write(0,1,'价格')
 
