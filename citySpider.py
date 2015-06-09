@@ -7,8 +7,8 @@ def cityRun():
 	print '58同城 start...'
 	wb = xlwt.Workbook()
 	sheet = wb.add_sheet('58')
-	sheet.write(0,0,'xx58')
-	sheet.write(0,1,'xx')
+	sheet.write(0,0,'链接')
+	sheet.write(0,1,'价格')
 
 	html = urllib.urlopen('http://sh.58.com/zufang/j1/?PGTID=14334892048890.18738903105258942&ClickID=1&final=1&searchtype=3&key=%2525u7533%2525u57CE%2525u4F73%2525u82D1&sourcetype=5').read()
 	soup = BeautifulSoup(html)
